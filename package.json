@@ -1,0 +1,10 @@
+{
+  "name": "@jx3box/jx3box-fe-proxy",
+  "version": "1.0.0",
+  "description": "jx3box.com 前端开发代理列表",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "jx3box",
+  "license": "ISC"
+}
