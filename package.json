@@ -1,10 +1,23 @@
 {
   "name": "@jx3box/jx3box-fe-proxy",
   "version": "1.0.0",
-  "description": "jx3box.com 前端开发代理列表",
-  "main": "index.js",
+  "description": "jx3box.com 前端开发域名前缀代理插件",
+  "main": "vue-proxy-plugin.js",
   "scripts": {
+    "test": "node test.js"
   },
+  "files": [
+    "vue-proxy-plugin.js",
+    "vue.config.example.js",
+    "README.md"
+  ],
+  "keywords": [
+    "jx3box",
+    "proxy",
+    "vue",
+    "webpack",
+    "devserver"
+  ],
   "author": "jx3box",
   "license": "ISC"
 }
