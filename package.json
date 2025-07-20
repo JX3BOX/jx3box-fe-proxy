@@ -1,6 +1,6 @@
 {
   "name": "@jx3box/jx3box-fe-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jx3box.com 前端开发域名前缀代理插件",
   "main": "vue-proxy-plugin.js",
   "scripts": {
