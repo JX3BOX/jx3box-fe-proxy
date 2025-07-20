@@ -1,9 +1,6 @@
 name: Publish Package
 
-# 仅在创建 release 时触发发布
-on:
-  release:
-    types: [created]
+on: [push]
 
 jobs:
   publish-npm:
