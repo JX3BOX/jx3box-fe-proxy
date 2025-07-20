@@ -4,11 +4,13 @@
   "description": "jx3box.com 前端开发域名前缀代理插件",
   "main": "vue-proxy-plugin.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "prepublishOnly": "npm test"
   },
   "files": [
     "vue-proxy-plugin.js",
     "vue.config.example.js",
+    "usage-examples/",
     "README.md"
   ],
   "keywords": [
@@ -16,8 +18,18 @@
     "proxy",
     "vue",
     "webpack",
-    "devserver"
+    "devserver",
+    "development",
+    "frontend"
   ],
   "author": "jx3box",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JX3BOX/jx3box-fe-proxy.git"
+  },
+  "homepage": "https://github.com/JX3BOX/jx3box-fe-proxy#readme",
+  "bugs": {
+    "url": "https://github.com/JX3BOX/jx3box-fe-proxy/issues"
+  }
 }
